@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 * {
   box-sizing: border-box;
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   background: #f4f4f4;
 }
@@ -33,15 +33,15 @@ img {
 }
 
 .text-center {
-  text-align:center;
+  text-align: center;
 }
 
 .text-primary {
-  color: #F27F1B;
+  color: #f27f1b;
 }
 
 .text-secondary {
-  color: #2A8C82;
+  color: #2a8c82;
 }
 
 .bg-light {
@@ -55,7 +55,7 @@ img {
 }
 
 .bg-primary {
-  background: #F27F1B;
+  background: #f27f1b;
   color: #fff;
 }
 
@@ -66,8 +66,8 @@ img {
 }
 
 .m-heading {
-  font-size: 2rem;å
-  margin-bottom: 0.75rem;
+  font-size: 2rem;
+  åmargin-bottom: 0.75rem;
   line-height: 1.1;
 }
 
@@ -76,25 +76,37 @@ img {
   margin-bottom: 2rem;
 }
 
-.py-1 { padding: 1.5rem 0; }
-.py-2 { padding: 2rem 0; }
-.py-3 { padding: 3rem 0; }
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
 
-.p-1 { padding: 1.5rem; }
-.p-2 { padding: 2rem; }
-.p-3 { padding: 3rem; }
+.p-1 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
 
 .btn {
   display: inline-block;
   color: #fff;
-  background: #F27F1B;
+  background: #f27f1b;
   padding: 0.5rem 2rem;
   border: none;
   border-radius: 5px;
 }
 
 .btn:hover {
-  background: #AEBFB7;
+  background: #f26a1b;
 }
 
 .btn-dark {
@@ -119,11 +131,11 @@ img {
 }
 
 .bottom-line {
-    height: 2px;
-    width: 3rem;
-    background: #F27F1B;
-    display: block;
-    margin: 0 auto 1rem auto;
+  height: 2px;
+  width: 3rem;
+  background: #f27f1b;
+  display: block;
+  margin: 0 auto 1rem auto;
 }
 
 .bottom-line-secondary {
@@ -149,12 +161,17 @@ img {
   height: 300px;
   border-radius: 10px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  background: #f27f1b;
+}
+
+.card img {
+  border-radius: 10px;
+  border: 5px solid #f4f4f4;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-
 
 .bg-dark {
   background: #333;
@@ -176,8 +193,8 @@ img {
 #navbar {
   display: flex;
   position: sticky;
-  top:0;
-  background: #F27F1B;
+  top: 0;
+  background: #f27f1b;
   color: #fff;
   justify-content: space-between;
   z-index: 1;
@@ -197,13 +214,13 @@ img {
 }
 
 #navbar ul li a:hover {
-  background: #F27F1B;
+  background: #f27f1b;
   border-radius: 5px;
 }
 
 /* Showcase */
 #showcase {
-  background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
+  background: #333 url("../img/showcase.jpg") no-repeat center center/cover;
   height: 100vh;
   color: #fff;
 }
@@ -219,10 +236,10 @@ img {
   /* Overlay */
   position: absolute;
   top: 65px;
-  left:0;
+  left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Section: What We Do */
@@ -238,7 +255,7 @@ img {
 }
 
 #what .items .item i {
-  background: #F27F1B;
+  background: #f27f1b;
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 1rem;
@@ -254,23 +271,11 @@ img {
 }
 
 #who .who-img {
-  background: url('../img/people.jpg') no-repeat center center/cover;
-}
-
-/* Section: Clients */
-#clients .items {
-  display: flex;
-}
-
-#clients .items img {
-  display: block;
-  margin: auto;
-  width: 60%;
+  background: url("../img/people.jpg") no-repeat center center/cover;
 }
 
 /* Section: Work */
 
 #work {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
-
