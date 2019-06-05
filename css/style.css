@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
 
 * {
   box-sizing: border-box;
@@ -44,6 +45,14 @@ img {
   color: #2a8c82;
 }
 
+.secondary-text {
+  font-family: "Caveat", cursive;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px #000;
+}
+
 .bg-light {
   background: #f4f4f4;
   color: #333;
@@ -72,7 +81,7 @@ img {
 }
 
 .lead {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
@@ -124,6 +133,10 @@ img {
   border-bottom: #444 dotted 1px;
 }
 
+ul li {
+  list-style: none;
+}
+
 .underline {
   background: #7ab436;
   padding: 1px;
@@ -166,7 +179,7 @@ img {
 
 .card img {
   border-radius: 10px;
-  border: 5px solid #f4f4f4;
+  border: 3px solid #f4f4f4;
 }
 
 .card:hover {
